@@ -51,7 +51,6 @@ body {
 }
 
 .sidebar {
-  display: flex;
   flex-shrink: 0;
   padding: 16px;
 }
@@ -66,16 +65,15 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
+}
+
+li {
+  margin-bottom: 16px;
 }
 
 
-
 .card {
-  display: flex;
-  flex-basis: 300px;
+  width: 300px;
   padding: 15px;
 }
 
@@ -87,9 +85,7 @@ ul {
 .main {
   padding: 48px;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: left;
   gap: 30px;
 }
 
